@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - SmartSesh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #111;
+    }
+    header {
+      background: #3078d6;
+      padding: 2rem;
+      color: white;
+      text-align: center;
+    }
+    header img {
+      width: 60px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline-block;
+      font-size: 2.5rem;
+      margin-left: 1rem;
+      vertical-align: middle;
+    }
+    nav {
+      text-align: right;
+      background: #e0ebff;
+      padding: 1rem 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #3078d6;
+      font-weight: 600;
+    }
+    nav .signup-button {
+      background: #3078d6;
+      color: white;
+      padding: 0.5rem 1.5rem;
+      border-radius: 8px;
+      margin-left: 1rem;
+    }
+    .signup-container {
+      max-width: 500px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+    .signup-form {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .signup-form h2 {
+      color: #3078d6;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .form-group input:focus {
+      outline: none;
+      border-color: #3078d6;
+    }
+    .submit-button {
+      background: #3078d6;
+      color: white;
+      padding: 1rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .login-link {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+    .login-link a {
+      color: #3078d6;
+      text-decoration: none;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/ChatGPT Image Apr 9, 2025, 04_15_34 PM.png" alt="SmartSesh Logo">
+    <h1>SmartSesh</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="signup.html" class="signup-button">Sign Up</a>
+  </nav>
+
+  <div class="signup-container">
+    <div class="signup-form">
+      <h2>Create Your Account</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" required>
+        </div>
+        <button type="submit" class="submit-button">Create Account</button>
+      </form>
+      <div class="login-link">
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 SmartSesh. All rights reserved. | Contact us: support@smartsesh.com</p>
+  </footer>
+</body>
+</html> 
